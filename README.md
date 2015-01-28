@@ -1,4 +1,4 @@
-share-url-generator
+Tweet it Already
 ===================
 
-Generates a url for custom share buttons.
+A simple tool to make generating Twitter share intent links easier.

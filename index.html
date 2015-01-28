@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Tweet it Already</title>
+
+		<script type="text/javascript" src="//use.typekit.net/ziu8mpc.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="wrapper">
+				<div class="float-left">
+					<a href="/">Tweet It Already</a>
+				</div>
+				<div class="float-right">
+					<a data-what-button href="#">What?</a>
+				</div>
+			</div>
+		</header>
+
+		<div data-form class="wrapper">
+			<input type="text" name="text" placeholder="Say something" autofocus>
+			<label>Tweet text</label>
+			<input type="text" name="via" placeholder="@henrybayuzick">
+			<label>Via screen name (just one)</label>
+			<input type="text" name="url" placeholder="shareitalready.com">
+			<label>URL of the page to share</label>
+			<input type="text" name="hashtags" placeholder="#shareitalready">
+			<label>Hashtags seperated by a comma</label>
+		</div>
+
+		<button data-button class="mt1">Press me</button>
+
+		<div data-overlay class="overlay hidden">
+			<div class="center-x-y">
+				<div class="wrapper">
+					<div data-what class="hidden">
+						<p>A simple tool to make generating Twitter share intent links easier.</p>
+						<p>Made by <a href="http://www.twitter.com/henrybayuzick" target="_blank">@henrybayuzick</a>.</p>
+						<p class="mt2"><a href="#">See source &rarr;</a></p>
+					</div>
+					<div data-link class="hidden">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="./js/all.min.js"></script>
+	</body>
+</html>
