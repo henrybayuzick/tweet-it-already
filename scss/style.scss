@@ -92,6 +92,9 @@ input {
 ::-moz-placeholder { color: #ececec; }
 :-ms-input-placeholder { color: #ececec; }
 
+::selection { background: #ff4f19; }
+::-moz-selection { background: #ff4f19; }
+
 button {
   background: #303030;
   border: 0;
