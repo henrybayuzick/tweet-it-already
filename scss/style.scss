@@ -76,7 +76,7 @@ a:hover { text-decoration: line-through; }
 
 input {
   border: 0;
-  border-bottom: 1px solid #ececec;
+  border-top: 1px solid #ececec;
   color: #303030;
   font-family: 'futura-pt';
   font-size: 10vw;
@@ -85,6 +85,10 @@ input {
   margin: 1rem 0;
   outline: 0;
   width: 100%;
+
+  &:first-child {
+  	border:0;
+  }
 }
 
 ::-webkit-input-placeholder { color: #ececec; }
