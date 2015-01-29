@@ -11,4 +11,4 @@ A simple tool to make generating Twitter share intent links easier.
 - [ ] Add copy to clipboard
 - [ ] Add the ability to close the generate link modal
 - [ ] Better favicon
-- [ ] Improve field labels
+- [x] Improve field labels
